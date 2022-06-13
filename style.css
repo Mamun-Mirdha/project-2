@@ -1,0 +1,555 @@
+/*############ defult css ############*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    padding: 0;
+    margin: 0
+}
+ul li{
+    list-style: none;
+}
+input:focus{
+    box-shadow: none;
+}
+
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.clear-fix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.flot-left{
+    float: left;
+}
+.flot-right{
+    float: right;
+}
+body{
+    Font-family: Work Sans, sans-serif;
+}
+
+/*############ defult css end ############*/
+/*############ header area start ############*/
+.header {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding: 7px 0px 2px;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0;
+}
+.header-logo{
+    width: 30%;
+}
+.header-menu{
+    width: 70%;
+}
+.header-logo img {
+    width: 95px;
+}
+.header-logo span {
+    color: #010101;
+    font-size: 26px;
+    margin-left: 7px;
+    display: inline-block;
+    font-weight: 500;
+    margin-top: 5px;
+    transition: .5s;
+}
+.main-menu ul li {
+    display: inline-block;
+    margin-left: -4px;
+    position: relative;
+}
+.main-menu ul li a {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 65px;
+    padding: 0 15px;
+    color: #010101;
+}
+.main-menu ul li a:hover{
+    color:#6278df;
+}
+
+.header-button a {
+    display: inline-block;
+    border: 2px solid #6278DF;
+    padding: 9px 27px;
+    border-radius: 9px;
+    font-weight: 600;
+    background: none;
+    color: #6278df;
+    transition: .5s;
+    margin-top: 2px;
+}
+.header-button a:hover{
+    background-color: #6278df;
+    color: #fff;
+    box-shadow: 3px 4px 38px 0px rgba(98, 120, 223, .2);
+}
+
+/*############ banner area start ############*/
+.banner {
+    background: url("https://i.ibb.co/7vfQ4z2/banner.jpg") center center no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    position: relative;
+    margin-top: 74px;
+}
+.banner::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+}
+.banner h1 {
+    font-size: 59.6px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.banner h3 {
+    font-size: 27px;
+    font-weight: 400;
+}
+.dufolt-btn {
+    padding: 20px;
+    display: inline-block;
+    font-size: 20.8px;
+    background-color: #fcfcfc;
+    border-color: 1px solid #fcfcfc;
+    color: #7d7d7d;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: .5s;
+    width: 198px;
+    box-sizing: border-box;
+}
+.mr{
+    margin-right: 10px;
+}
+.dufolt-btn:hover{
+    color: #fff;
+    background-color: #E0A139;
+}
+/*############ banner area end ############*/
+/*############ banner bottom area start ############*/
+.banner-bottom {
+    background: #F7F9FF;
+    padding: 100px 0;
+}
+.left-area{
+    width: 48%;
+}
+.right-area {
+    width: 48%;
+    margin-left: 20px;
+}
+.banner-bottom h2 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.banner-bottom p {
+    color: #767676;
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+/*############ banner bottom area end ############*/
+
+/*############ priching section area start  ############*/
+.priching-area {
+    background-color: #F7F9FF;
+    padding: 47px 0;
+}
+.services-content h2 {
+    font-size: 56px;
+    font-weight: 500;
+    margin-bottom: 29px;
+}
+.services-content h2 {
+    font-size: 57.6px;
+    font-weight: 400;
+}
+.services-content {
+    margin-bottom: 80px;
+}
+
+.priching-item {
+    width: 31%;
+    margin-left: 2%;
+    background-color: #fff;
+    box-shadow: 3px 4px 38px 0px rgba(98, 120, 223, .2);
+    transition: .5s;
+}
+
+
+.p-hadding {
+    padding: 24px 30px;
+    border-bottom: 1px solid #ddd;
+    transition: .5s;
+}
+.p-hadding span{
+    font-size: 20px;
+    font-weight: 700;
+}
+.p-hadding h1 {
+    font-weight: 700;
+    font-size: 57.6px;
+    background: #F5F5F5;
+    margin: 50px 0;
+    padding-left: 10px;
+    transition: .5s;
+}
+.p-hadding h4{
+    font-size: 25.6px;
+    font-weight: 500;
+}
+.p-hadding h5{
+    font-size: 20.8px;
+    padding: 32px 0px 0px;
+    font-weight: 500;
+}
+.p-hadding p{
+    font-size: 20.8px;
+    padding: 16px 0px 8px;
+    font-weight: 300;
+    color: #000;
+    transition: .5s;
+}
+
+.p-content{
+    padding: 30px;
+}
+.p-content ul li {
+    margin: 30px 0;
+    font-size: 20.8px;
+    color: #3F3F3F;
+    display: block;
+}
+.p-content ul span {
+    color: #E79230;
+    font-weight: 400;
+    font-size: 32px;
+    width: 43px;
+    display: inline-block;
+}
+.p-button .dufolt-btn {
+    box-shadow: 4px 5px 40px 7px rgb(98 120 223 / 20%);
+    width: 60%;
+}
+.priching-item:hover .p-hadding{
+    background-color: #F0962F;
+    color: #fff;
+}
+.priching-item:hover .p-button .dufolt-btn{
+    background-color: #F0962F;
+    color: #fff;
+    transition: .1s;
+}
+.priching-item:hover .p-hadding h1{
+    background: transparent;
+    color: #fff;
+}
+.priching-item:hover .p-hadding p {
+  color: #fff;
+}
+/*############ priching section area end  ############*/
+
+/*############ teem section area start  ############*/
+.teem{
+    padding: 80px 0;
+}
+.member{
+    width: 22%;
+    margin-right: 2%;
+    border: 5px double  #E69231;
+    padding-bottom: 20px ;
+}
+.member-bio {
+    margin-left: 23px;
+}
+.member:nth-child(4){
+    margin-right: 0;
+}
+.member img {
+    width: 100%;
+}
+
+.member-bio h4 {
+    font-size: 25.6px;
+    line-height: 38.4px;
+    font-weight: 500;
+}
+
+.member-bio p {
+    font-size: 20.8px;
+    color: #767676;
+    font-weight: 300;
+}
+/*############ teem section area end  ############*/
+/*############ newslater section area start   ############*/
+.newslater{
+    background: #F7F9FF;
+    padding: 80px 0;
+}
+.newslater-title p {
+    padding: 0;
+    margin-bottom: 22px;
+}
+.newslater-title h2 {
+    font-size: 43.8px;
+    padding: 32px 0px 0px;
+    font-weight: 500;
+    /* margin-bottom: 22px; */
+}
+.main-input {
+    color: #232323;
+    border: 1px solid #BDC731;
+    box-sizing: border-box;
+    padding: 22px 24px;
+    border-radius: 10px;
+    margin: 0;
+    box-shadow: 3px 4px 38px 0px rgba(98, 120, 223, .2);
+    width: 550px;
+    font-size: 1.3rem;
+    border: 2px solid #BDC731;
+    transition: .5s;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.newslater-title {
+    margin-bottom: 59px;
+}
+.main-input:focus{
+    border: 2px solid #6278df;
+    box-shadow: 3px 4px 38px 0px rgba(98, 120, 223, .2);
+    outline-offset: 0px;
+    outline: none;
+}
+.submit-btn {
+    color: #fff;
+    padding: 22px 93px;
+    background: #AA972C;
+    border: none;
+    font-weight: 600;
+    font-size: 20.8px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 6.4px 12.8px;
+    border: 2px solid transparent;
+    transition: .5s;
+    display: block;
+    margin: auto;
+}
+.submit-btn:hover{
+    border: 2px solid #C9AC61;
+    background-color: #fff;
+    color: #BD9C72;
+    box-shadow: 3px 4px 38px 0px rgba(98, 120, 223, .3);
+}
+
+/*############ newslater section area end  ############*/
+/*############ secelect me section area start  ############*/
+
+.select-me h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 57px;
+    margin-bottom: 29px;
+}
+.select-left{
+    width: 40%;
+}
+.select-right{
+    width: 58%;
+}
+.select-img img{
+    width: 100%;
+}
+.select-content span {
+    margin-right: 6px;
+    font-size: 26px;
+}
+.select-content h3 {
+    color: #555555;
+    font-size: 21.5px;
+    margin: 16px 0 27px;
+}
+.select-content p {
+    margin-bottom: 26px;
+    color: #292C29;
+    font-size: 18px;
+    line-height: 30px;
+}
+.select-content:last-child p{
+    margin-bottom: 0;
+}
+/*############ secelect me section area end  ############*/
+/*############ testimonial section area start  ############*/
+.testimonial {
+    padding: 100px 0;
+    background: rgb(247, 249, 255);
+}
+.services-content {
+    margin-bottom: 95px;
+}
+.services-content p {
+    margin-bottom: 50px;
+}
+.services-content h2 {
+    font-size: 43px;
+    font-weight: 500;
+}
+.t-item {
+    width: 31%;
+    margin-right: 2%;
+    border: 2px solid #C4C6CE;
+}
+.t-item:last-child{
+    margin-right: 0;
+}
+
+.t-content {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 22px 4px rgb(233, 234, 243);
+    padding: 60px 40px;
+    box-sizing: border-box;
+    margin-bottom: 34px;
+    position: relative;
+}
+.t-content::after {
+    content: "";
+    position: absolute;
+    left: 45%;
+    bottom: -20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 20px 0 20px;
+    border-color: #ffffff transparent transparent transparent;
+}
+.t-content p {
+    color: rgb(118, 118, 118);
+    font-size: 20.8px;
+    line-height: 31.2px;
+    position: relative;
+    margin-bottom: 0px;
+    z-index: 1;
+}
+.t-content p::before {
+    content: "";
+    position: absolute;
+    font-family: FontAwesome;
+    font-size: 81px;
+    top: -6px;
+    left: -17px;
+    color: #EBEBEB;
+    z-index: -1;
+}
+
+.user-img {
+    width: 225px;
+    margin: 20px auto;
+}
+.user-img img {
+    width: 80px;
+    float: left;
+    margin-right: 20px;
+    border: 7px solid #aa972ced;
+}
+.user-bio{
+    position: relative;
+    top: 10px;
+}
+.user-bio h4 {
+    font-weight: 500;
+    font-size: 20.8px;
+}
+
+/*############ testimonial section area end  ############*/
+
+/*############ contact section area start  ############*/
+.contact {
+    padding: 56px 0 20px;
+}
+.contact-row {
+    max-width: 780px;
+    margin: auto;
+}
+.contact-form{
+    margin-top: 60px;
+}
+.contact-form .main-input{
+    margin-bottom: 20px;
+    box-shadow: none;
+    border: 1px solid #aa972ced;
+}
+.contact-form .w-100{
+    width: 100%;
+}
+.contact-form .main-input:focus{
+    border: 1px solid rgba(86, 119, 166, 0.562);
+    box-shadow: 0px 0px 0px 2px rgba(86, 119, 166, 0.562);
+    outline-offset: 0px;
+    outline: none;
+}
+.contact-form .w-50{
+    width: 48%;
+}
+.contact-form button {
+    width: 31%;
+    margin: 20px auto;
+    font-weight: 400;
+    font-size: 24px;
+    background-color: rgb(170, 151, 44);
+}
+.content-right-form h4 {
+    font-size: 25.6px;
+    margin: 20px 0;
+    font-weight: 500;
+}
+.content-right-form p {
+    color: rgb(118, 118, 118);
+    font-size: 22.8px;
+    font-weight: 300;
+    line-height: 32px;
+}
+.footer {
+    margin-top: 30px;
+}
+
+
+/*############ contact section area end  ############*/
